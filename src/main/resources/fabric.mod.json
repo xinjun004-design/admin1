@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "adminmod",
+  "version": "${version}",
+  "name": "Fabric Admin Suite",
+  "description": "伺服器管理員與執法工具 Mod",
+  "authors": [
+    "AdminTool"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.example.adminmod.AdminMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=26.3",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
